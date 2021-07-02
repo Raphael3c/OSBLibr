@@ -1,0 +1,22 @@
+.biblioteca header{
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biblioteca header h1{
+  margin-bottom: 9px;
+}
+
+.biblioteca .content{
+  width: 50vw;
+  height: 80vh;
+  overflow: auto;
+  text-align: center;
+}
+
+.biblioteca main{
+  display: flex;
+  justify-content: center;
+}

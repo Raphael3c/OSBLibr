@@ -1,0 +1,42 @@
+.biblioteca header div{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.biblioteca header button{ 
+  border-radius: 500px;
+  border: none;
+  padding: 5px;
+  background-color: #74B4FC;
+}
+
+.biblioteca header button:hover{
+  cursor: pointer;
+}
+
+.biblioteca header div input{
+  height: 30px;
+  width: 100%;
+  margin-right: 45px;
+}
+
+.biblioteca header div input:focus{
+  outline-color: #74B4FC;
+}
+
+@media(max-width: 1024px){
+  .biblioteca header div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+}
+
+@media(max-width: 425px){
+  .biblioteca header div{
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+}
